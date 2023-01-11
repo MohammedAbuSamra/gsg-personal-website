@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Set font and background color */
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Style header */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Style navigation */
+nav {
+  background-color: #eee;
+  padding: 1rem 10rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00bfff;
+}
+
+/* Style main section */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+main section {
+  background-color: #fff;
+  width: 80%;
+  padding: 2rem;
+  margin: 0.5rem;
+}
+
+main h2 {
+  margin-top: 0;
+}
+
+main p {
+  margin: 1rem;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+/* Style social links, contact-info, project link */
+.similar-ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 1rem;
+}
+
+.similar-ul a {
+  text-decoration: none;
+}
+
+/* Style footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
